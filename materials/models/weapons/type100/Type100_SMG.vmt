@@ -9,11 +9,11 @@
 
 	"$phong"                        "1"
 	"$phongalbedotint"              "1"
-	"$phongtint"                    "[.6 .8 1]"
+	"$phongtint"                    "[.4 .6 1]"
 
 	"$phongboost"                   ".75"
-	"$phongexponent"                "25"
-	"$phongfresnelranges"           "[.2 1 3]"
+	"$phongexponent"                "35"
+	"$phongfresnelranges"           "[.4 1 3]"
 	
 	"$selfillum"	1
 

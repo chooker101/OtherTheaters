@@ -119,66 +119,6 @@
 			}
 		}
 		
-		"template_russian_engineer_coop"
-		{
-			"print_name"				"#class_russian_engineer"
-			"response_rules_key"		"scottish"
-			
-			"models"
-			{
-				"player"				"models/characters/british/player_british_03.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_short_brit.mdl"
-				"helmet"				"models/characters/british/british_helmet.mdl"
-				
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-					"helmet"				"1"
-				}				
-			}
-			
-			"icon"						"engineer"
-			
-			"buy_order"
-			{
-				"weapon"				"weapon_ll_etool_brit"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_ll_piat"
-				"weapon"				"weapon_ll_no69"
-				"gear"					"commonwealth_light_kit"
-			}
-			"allowed_items"
-			{
-				"weapon"				"weapon_ll_ithaca"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_ll_webley"
-				"weapon"				"weapon_ll_no69"
-				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_ll_no79"
-				"weapon"				"weapon_ll_piat"
-				"weapon"				"weapon_ll_flamethrower_british"
-				"weapon_upgrade"		"default_bayonet"
-				"weapon_upgrade"		"default_bayonet_spike"
-				"weapon_upgrade"		"default_sling"
-				"weapon_upgrade"		"underbarrel_rifle_grenade"
-				"weapon_upgrade"		"magazine_stripper_clips"
-				"gear"					"gear_fuel_tank"
-				"gear"					"gear_radio_commonwealth"
-			}
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_webley"		"-1"
-				}
-				"gear"
-				{
-					"gear_radio_commonwealth"		"-1"
-				}
-			}
-		}
-		
 		"template_german_engineer_coop"
 		{
 			"print_name"				"#class_german_engineer"
@@ -443,50 +383,6 @@
 				"weapon"				"weapon_no79"
 				"weapon"				"weapon_no36"
 				"weapon"				"weapon_binoculars_british"
-				"weapon_upgrade"		"magazine_speedloader_webley"
-			}
-		}
-		
-		"template_russian_machinegunner_coop"
-		{
-			"print_name"				"#class_russian_machinegunner"
-			"print_attribute"			"#class_machinegunner_attribute"
-			"print_description"			"#class_machinegunner_description"
-			"response_rules_key"		"english"
-			
-			"icon"						"machinegunner"
-			
-			"models"
-			{
-				"player"				"models/characters/british/player_british_06.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_short_brit.mdl"
-				//"viewmodel_gloves"		"models/weapons/v_hands_brit_gloves.mdl"
-				"helmet"				"models/characters/british/british_helmet_camo.mdl"
-				
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-					"helmet"				"3"
-				}
-			}
-			
-			"buy_order"
-			{
-				"weapon"				"weapon_ll_etool_brit"
-				"weapon"				"weapon_ll_vickers"
-				"weapon"				"weapon_ll_webley"
-				"gear"					"commonwealth_light_kit"
-			}
-			"allowed_items"
-			{
-				"weapon"				"weapon_dp28"
-				"weapon"				"weapon_ll_vickers"
-				"weapon"				"weapon_ll_webley"
-				"weapon"				"weapon_tt33"
-				"weapon"				"weapon_ll_no79"
-				"weapon"				"weapon_ll_no36"
-				"weapon"				"weapon_ll_binoculars_british"
 				"weapon_upgrade"		"magazine_speedloader_webley"
 			}
 		}
