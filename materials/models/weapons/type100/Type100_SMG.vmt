@@ -11,8 +11,8 @@
 	"$phongalbedotint"              "1"
 	"$phongtint"                    "[.4 .6 1]"
 
-	"$phongboost"                   ".75"
-	"$phongexponent"                "35"
+	"$phongboost"                   ".2"
+	"$phongexponent"                "20"
 	"$phongfresnelranges"           "[.4 1 3]"
 	
 	"$selfillum"	1

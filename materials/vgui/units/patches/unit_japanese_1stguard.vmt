@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/units/patches/unit_japanese_1stgaurd"
+	"$baseTexture" "vgui/units/patches/unit_japanese_1stguard"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
 	"$ignorez" "1"
