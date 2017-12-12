@@ -1,7 +1,7 @@
 "Vertexlitgeneric"
 {
-	"$basetexture"  		"models\weapons\type100\type100_d"
-	"$bumpmap"     			"models\weapons\type100\type100_n"
+	"$basetexture"  		"models\weapons\type100\type100-44_d"
+	"$bumpmap"     			"models\weapons\type100\type100-44_n"
 
 	"$envmap"                       "env_cubemap"
 	"$normalmapalphaenvmapmask"	"1"

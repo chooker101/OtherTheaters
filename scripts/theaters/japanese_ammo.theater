@@ -6,7 +6,7 @@
 		{
 			"import"				"9x19" 
 			"SuppressionIncrement"			"20"
-			"brass_model"				"models/weapons/shells/9x19.mdl"
+			"brass_model"				"models/weapons/shells/8x22mm.mdl"
 			
 			"Damage"
 			{
