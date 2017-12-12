@@ -1,0 +1,225 @@
+"#base" "base_weapon.theater"
+"#base" "base_explosives.theater"
+"#base" "base_common_ammo.theater"
+"#base" "default_ammo.theater"
+"#base" "japanese_ammo.theater"
+
+"theater"
+{
+	"weapons"
+	{		
+		"weapon_type100/40"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_type100/40"
+			"print_desc"				"#weapon_type100/40_desc"
+			"view_model"				"models/weapons/type100/v_type100.mdl"
+			"world_model"				"models/weapons/w_sten_mk2.mdl"
+			"rounds_per_minute"			"450"
+			"closed_bolt"				"0"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak2"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"90"
+			"weapon_cost"				"1"
+			"barrel_length"				"16"
+			"class_restricted"			"0"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-15"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"62"
+				"fov_wpn_ironsight"			"68"
+				"fov_wpn_focus"				"64"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_sten.Single"
+				"shot_single_local"			"Weapon_sten.SingleLocal"
+				"shot_silent"				"Weapon_sten.SingleSilenced"
+				"shot_silent_local"			"Weapon_sten.SingleSilencedLocal"
+				"empty"						"Weapon_sten.Empty"
+				
+				"clipin"					"Weapon_sten.Magin"
+				"clipout"					"Weapon_sten.Magout"
+				"boltback"					"Weapon_sten.Boltback"
+				"boltrelease"				"Weapon_sten.Boltrelease"
+				"rofdown"					"Weapon_sten.ROF"
+				"rofup"						"Weapon_sten.ROF"
+				"hit"						"Weapon_sten.Hit"
+				
+				"thirdperson_prefix"		"Weapon_sten"
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_sten_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_sten_3p"
+				"particle_tracer"				"weapon_tracers"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.75 1.15"
+				"recoil_vertical_range"			"1.8 2.3"
+				"recoil_aim_punch"				"0.4 0.6"
+				"recoil_rest_rate"				"6"
+				"recoil_rest_delay"				"0.14"
+				"recoil_roll_range"				"-1.45 -1.45"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"5"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.6 0.6 0.6"
+				"FireModes"					"full"
+				"bulletcount"				"1"
+				"maxrange"					"8000"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"8x22mm_nambu"
+				"magsize_override"			"30"
+				"clip_max"					"12"
+				"clip_max_rounds"			"30"
+				"clip_default"				"3"
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.1"
+				"MeleeDamage"			"50"
+				"MeleeRange"			"75"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"23 -2 3"
+			}
+			
+			"team_access"					"japanese"
+		}
+		
+		"weapon_type100/44"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_type100/44"
+			"print_desc"				"#weapon_type100/44_desc"
+			"view_model"				"models/weapons/type100/v_type100.mdl"
+			"world_model"				"models/weapons/w_sten_mk2.mdl"
+			"rounds_per_minute"			"800"
+			"closed_bolt"				"0"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak2"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"90"
+			"weapon_cost"				"1"
+			"barrel_length"				"16"
+			"class_restricted"			"0"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-15"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"62"
+				"fov_wpn_ironsight"			"68"
+				"fov_wpn_focus"				"64"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_sten.Single"
+				"shot_single_local"			"Weapon_sten.SingleLocal"
+				"shot_silent"				"Weapon_sten.SingleSilenced"
+				"shot_silent_local"			"Weapon_sten.SingleSilencedLocal"
+				"empty"						"Weapon_sten.Empty"
+				
+				"clipin"					"Weapon_sten.Magin"
+				"clipout"					"Weapon_sten.Magout"
+				"boltback"					"Weapon_sten.Boltback"
+				"boltrelease"				"Weapon_sten.Boltrelease"
+				"rofdown"					"Weapon_sten.ROF"
+				"rofup"						"Weapon_sten.ROF"
+				"hit"						"Weapon_sten.Hit"
+				
+				"thirdperson_prefix"		"Weapon_sten"
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_sten_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_sten_3p"
+				"particle_tracer"				"weapon_tracers"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.75 1.15"
+				"recoil_vertical_range"			"1.8 2.3"
+				"recoil_aim_punch"				"0.4 0.6"
+				"recoil_rest_rate"				"6"
+				"recoil_rest_delay"				"0.14"
+				"recoil_roll_range"				"-1.45 -1.45"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"5"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.6 0.6 0.6"
+				"FireModes"					"full"
+				"bulletcount"				"1"
+				"maxrange"					"8000"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"8x22mm_nambu"
+				"magsize_override"			"30"
+				"clip_max"					"12"
+				"clip_max_rounds"			"30"
+				"clip_default"				"3"
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.1"
+				"MeleeDamage"			"50"
+				"MeleeRange"			"75"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"23 -2 3"
+			}
+			
+			"team_access"					"japanese"
+		}
+	}
+}

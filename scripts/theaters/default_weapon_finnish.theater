@@ -1,0 +1,273 @@
+"#base" "base_weapon.theater"
+"#base" "base_explosives.theater"
+"#base" "base_common_ammo.theater"
+"#base" "default_ammo.theater"
+
+"theater"
+{
+	"weapons"
+	{				
+		// ========================================
+		// MELEE
+		// ========================================
+		
+		
+		
+		// ========================================
+		// GRENADES
+		// ========================================
+		
+		
+		// ========================================
+		// PISTOLS
+		// ========================================
+		
+		
+		
+		// ========================================
+		// SHOTGUNS
+		// ========================================
+		
+		
+		
+		// ========================================
+		// BOLT-ACTION WEAPONS
+		// ========================================
+			
+		
+		
+		// ========================================
+		// SUB-MACHINE GUNS
+		// ========================================		
+		"weapon_suomi"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"view_model"				"models/weapons/suomi/v_suomi.mdl"
+			"world_model"				"models/weapons/suomi/w_suomi.mdl"
+			"print_name"				"#weapon_suomi"
+			"print_desc"				"#weapon_suomi_desc"
+			"rounds_per_minute"			"950"
+			"closed_bolt"				"0"
+			"weapon_slot"				"primary"
+			"act_table"					"smg_magheld"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"86"
+			"weapon_cost"				"2"
+			"barrel_length"				"20"
+			"class_restricted"			"1"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"65"
+				"fov_wpn_ironsight"			"79"
+				"fov_wpn_focus"				"82"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_mp40.Single"
+				"shot_single_local"			"Weapon_mp40.SingleLocal"
+				"shot_silent"				"Weapon_mp40.SingleSilenced"
+				"shot_silent_local"			"Weapon_mp40.SingleSilencedLocal"
+				"empty"						"Weapon_mp40.Empty"
+				"clipin"					"Weapon_mp40.Magin"
+				"clipout"					"Weapon_mp40.Magout"
+				"boltback"					"Weapon_mp40.Boltback"
+				"boltrelease"				"Weapon_mp40.Boltrelease"
+				"rofdown"					"Weapon_mp40.ROF"
+				"rofup"						"Weapon_mp40.ROF"
+			}	
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_mp40_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.35 0.35"
+				"recoil_vertical_range"			"1.875 2.475"
+				"recoil_aim_punch"			"0.4 0.6"
+				"recoil_rest_rate"			"6"
+				"recoil_rest_delay"			"0.14"
+				"recoil_roll_range"			"-1.45 -1.45"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.82"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"					"0.40 0.40 0.40"
+				"FireModes"					"full"
+				"bulletcount"				"1"
+				"maxrange"					"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"9x19mm_smg"
+				"magsize_override"			"36"
+				"clip_max"					"12"
+				"clip_max_rounds"			"34"
+				"clip_default"				"3"
+			}
+			"viewmodel_attachments"
+			{
+				"standard_magazine"
+				{
+					"model"						"models/weapons/suomi/a_suomi_mag.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			"world_attachments"
+			{
+				"standard_magazine"
+				{
+					"model"						"models/weapons/suomi/w_suomi_mag.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			"attachments"
+			{
+				"attachment_addon"			"Primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"22 -4 2"
+			}
+			"team_access"				"axis, russian"
+		}	
+		
+		// ========================================
+		// LIGHT MACHINE GUNS
+		// ========================================
+		"weapon_m26"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_automatic_fire"
+			"print_name"				"#weapon_m26"
+			"print_desc"				"#weapon_m26_desc"
+			"view_model"				"models/weapons/v_m26.mdl"
+			"world_model"				"models/weapons/m26/w_m26.mdl"
+			"rounds_per_minute"			"550"
+			"weapon_slot"				"primary"
+			"act_table"					"lmg"
+			"weapon_abilities"			"ironsight, bipod"
+			"weapon_weight"				"130"
+			"weapon_cost"				"0"
+			"barrel_length"				"28"
+			"closed_bolt"				"0"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-20"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"72"
+				"fov_wpn_ironsight"			"79"
+				"fov_wpn_focus"				"71"
+			}
+			
+			"ironsights"
+			{
+				"in_time"	"0.35"
+				"out_time"	"0.30"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_Bar.Single"
+				"shot_single_local"			"Weapon_Bar.SingleLocal"
+				"shot_silent"				"Weapon_Bar.SingleSilenced"
+				"shot_silent_local"			"Weapon_Bar.SingleSilencedLocal"
+				"empty"						"Weapon_Bar.Empty"
+				"clipin"					"Weapon_Bar.Magin"
+				"clipout"					"Weapon_Bar.Magout"
+				"boltback"					"Weapon_Bar.Boltback"
+				"boltrelease"				"Weapon_Bar.Boltrelease"
+				"rofdown"					"Weapon_Bar.ROF"
+				"rofup"						"Weapon_Bar.ROF"
+				
+				"thirdperson_prefix"		"Weapon_Bar"
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_bar_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_bar_3p"
+				"particle_tracer"			"weapon_tracers"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"		"-0.8 1.0"
+				"recoil_vertical_range"		"1.9 2.2"
+				"recoil_aim_punch"			"0.4 0.6"
+				"recoil_rest_rate"			"7"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.4 -1.4"
+				"recoil_roll_rest_rate"		"200"
+				"recoil_freeaim_frac"		"0.5"
+				"recoil_ironsight_frac"		"1.0"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"6"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"					"0.3"
+				}
+				
+				"RecoilCrouchFracByWeight"
+				{
+					"0"					"0.7"
+				}
+				
+				"RecoilProneFracByWeight"
+				{
+					"0"					"0.5"
+				}
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.35"
+				"MeleeDamage"			"75"
+				"MeleeRange"			"75"
+			}
+			
+			"ballistics"
+			{
+				"spread"				"0.15 0.15 0.15"
+				"FireModes"				"full, semi"
+				"bulletcount"			"1"
+				"maxrange"				"10000"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"762x51_box_20rnd"
+				"clip_max"				"12"
+				"clip_max_rounds"		"20"
+				"clip_default"			"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"		"Primary"
+			}
+						
+			"kitui_offset"
+			{
+				"position"				"22 -4 2"
+			}
+			
+			"team_access"				"axis, russian"
+		}
+	}
+}

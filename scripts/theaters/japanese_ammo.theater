@@ -1,0 +1,42 @@
+"theater"
+{
+	"ammo"
+	{
+		"8x22mm_nambu"
+		{
+			"import"				"9x19" 
+			"SuppressionIncrement"			"20"
+			"brass_model"				"models/weapons/shells/9x19.mdl"
+			
+			"Damage"
+			{
+				"1"						"58"
+				"100"					"58"
+				"5000"					"32"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.60"
+				"HITGROUP_STOMACH"			"0.60"
+				"HITGROUP_LEFTARM"			"1.30"
+				"HITGROUP_RIGHTARM"			"1.30"
+				"HITGROUP_LEFTLEG"			"1.30"
+				"HITGROUP_RIGHTLEG"			"1.30"
+			}
+			
+			"PenetrationPower"
+			{
+				"100"					"600"
+				"600"					"200"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"800"					"0.25"
+			}
+		}
+	}
+}
