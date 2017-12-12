@@ -214,6 +214,7 @@
 		"japanese"
 		{
 			"name"					"#faction_japanese"
+			"logo"					"gameui/faction_japanese"
 			"?entrenchment_TEAM_TWO_attack"
 			{			
 				"squads"

@@ -221,6 +221,7 @@
 		"japanese"
 		{
 			"name"					"#faction_japanese"
+			"logo"					"gameui/faction_japanese"
 			"?stronghold_TEAM_TWO_attack"
 			{			
 				"squads"
